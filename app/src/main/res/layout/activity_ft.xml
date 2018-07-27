@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rikawidyakartika.iqro.FtActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="0.18"
+        android:paddingTop="10dp"
+        android:stretchColumns="*">
+
+        <TableRow android:paddingTop="15dp">
+            <ImageView
+                android:id="@+id/ft4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft4"/>
+            <ImageView
+                android:id="@+id/ft3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft3"/>
+            <ImageView
+                android:id="@+id/ft2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft2"/>
+
+            <ImageView
+                android:id="@+id/ft1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:paddingRight="0dp"
+                android:src="@drawable/ft1"/>
+        </TableRow>
+
+        <TableRow android:paddingTop="25dp">
+            <ImageView
+                android:id="@+id/ft8"
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft8"/>
+            <ImageView
+                android:id="@+id/ft7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:paddingRight="0dp"
+                android:src="@drawable/ft7"/>
+            <ImageView
+                android:id="@+id/ft6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft6"/>
+            <ImageView
+                android:id="@+id/ft5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft5"/>
+        </TableRow>
+
+        <TableRow android:paddingTop="25dp">
+            <ImageView
+                android:id="@+id/ft12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft12"/>
+            <ImageView
+                android:id="@+id/ft11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:paddingRight="0dp"
+                android:src="@drawable/ft11"/>
+            <ImageView
+                android:id="@+id/ft10"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft10"/>
+            <ImageView
+                android:id="@+id/ft9"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft9"/>
+        </TableRow>
+
+        <TableRow android:paddingTop="25dp">
+            <ImageView
+                android:id="@+id/ft16"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft16"/>
+            <ImageView
+                android:id="@+id/ft15"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:paddingRight="0dp"
+                android:src="@drawable/ft15"/>
+            <ImageView
+                android:id="@+id/ft14"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft14"/>
+            <ImageView
+                android:id="@+id/ft13"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft13"/>
+        </TableRow>
+
+        <TableRow android:paddingTop="25dp">
+            <ImageView
+                android:id="@+id/ft20"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft20"/>
+            <ImageView
+                android:id="@+id/ft19"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:paddingRight="0dp"
+                android:src="@drawable/ft19"/>
+            <ImageView
+                android:id="@+id/ft18"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft18"/>
+            <ImageView
+                android:id="@+id/ft17"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft17"/>
+        </TableRow>
+
+        <TableRow android:paddingTop="25dp">
+            <ImageView
+                android:id="@+id/ft24"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft24"/>
+            <ImageView
+                android:id="@+id/ft23"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:paddingRight="0dp"
+                android:src="@drawable/ft23"/>
+            <ImageView
+                android:id="@+id/ft22"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft22"/>
+            <ImageView
+                android:id="@+id/ft21"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft21"/>
+        </TableRow>
+
+        <TableRow android:paddingTop="25dp">
+            <ImageView
+                android:id="@+id/ft27"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:paddingRight="0dp"
+                android:src="@drawable/ft27"/>
+            <ImageView
+                android:id="@+id/ft26"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft26"/>
+            <ImageView
+                android:id="@+id/ft25"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ft25"/>
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

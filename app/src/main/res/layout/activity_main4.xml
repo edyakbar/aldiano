@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rikawidyakartika.iqro.Main4Activity">
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/nunmati"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/nunmati"/>
+        <ImageView
+            android:id="@+id/mimmati"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/mimmati"/>
+        <ImageView
+            android:id="@+id/idgom"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/idgom"/>
+        <ImageView
+            android:id="@+id/mad"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/mad"/>
+        <ImageView
+            android:id="@+id/ra"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ra"/>
+        <ImageView
+            android:id="@+id/lam"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/lam"/>
+
+        <ImageView
+            android:id="@+id/tasdid"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tasdid" />
+        <ImageView
+            android:id="@+id/qolqolah"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/qolqolah"/>
+        <ImageView
+            android:id="@+id/waqaf"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/waqaf"/>
+        <ImageView
+            android:id="@+id/khusus"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/khusus"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</android.support.constraint.ConstraintLayout>

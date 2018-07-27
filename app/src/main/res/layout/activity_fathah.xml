@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rikawidyakartika.iqro.FathahActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="0.18"
+        android:paddingTop="10dp"
+        android:stretchColumns="*">
+
+        <TableRow android:paddingTop="15dp">
+            <ImageView
+                android:id="@+id/f4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f4"/>
+            <ImageView
+                android:id="@+id/f3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f3"/>
+            <ImageView
+                android:id="@+id/f2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f2"/>
+
+            <ImageView
+                android:id="@+id/f1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:paddingRight="0dp"
+                android:src="@drawable/f1"/>
+        </TableRow>
+
+        <TableRow android:paddingTop="25dp">
+            <ImageView
+                android:id="@+id/f8"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f8"/>
+            <ImageView
+                android:id="@+id/f7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:paddingRight="0dp"
+                android:src="@drawable/f7"/>
+            <ImageView
+                android:id="@+id/f6"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f6"/>
+            <ImageView
+                android:id="@+id/f5"
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f5"/>
+        </TableRow>
+
+        <TableRow android:paddingTop="25dp">
+            <ImageView
+                android:id="@+id/f12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f12"/>
+            <ImageView
+                android:id="@+id/f11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:paddingRight="0dp"
+                android:src="@drawable/f11"/>
+            <ImageView
+                android:id="@+id/f10"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f10"/>
+            <ImageView
+                android:id="@+id/f9"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f9"/>
+        </TableRow>
+
+        <TableRow android:paddingTop="25dp">
+            <ImageView
+                android:id="@+id/f16"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f16"/>
+            <ImageView
+                android:id="@+id/f15"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:paddingRight="0dp"
+                android:src="@drawable/f15"/>
+            <ImageView
+                android:id="@+id/f14"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f14"/>
+            <ImageView
+                android:id="@+id/f13"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f13"/>
+        </TableRow>
+
+        <TableRow android:paddingTop="25dp">
+            <ImageView
+                android:id="@+id/f20"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f20"/>
+            <ImageView
+                android:id="@+id/f19"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:paddingRight="0dp"
+                android:src="@drawable/f19"/>
+            <ImageView
+                android:id="@+id/f18"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f18"/>
+            <ImageView
+                android:id="@+id/f17"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f17"/>
+        </TableRow>
+
+        <TableRow android:paddingTop="25dp">
+            <ImageView
+                android:id="@+id/f24"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f24"/>
+            <ImageView
+                android:id="@+id/f23"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:paddingRight="0dp"
+                android:src="@drawable/f23"/>
+            <ImageView
+                android:id="@+id/f22"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f22"/>
+            <ImageView
+                android:id="@+id/f21"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f21"/>
+        </TableRow>
+
+        <TableRow android:paddingTop="25dp">
+            <ImageView
+                android:id="@+id/f27"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:paddingRight="0dp"
+                android:src="@drawable/f27"/>
+            <ImageView
+                android:id="@+id/f26"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f26"/>
+            <ImageView
+                android:id="@+id/f25"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:src="@drawable/f25"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

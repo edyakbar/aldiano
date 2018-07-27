@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Iqro</string>
+    <string name="title_activity_list_madrasah">ListMadrasahActivity</string>
+    <string name="title_activity_detail_madrasah">DetailMadrasahActivity</string>
+</resources>

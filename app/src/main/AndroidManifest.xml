@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rikawidyakartika.iqro">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".FathahActivity" />
+        <activity android:name=".FtActivity" />
+        <activity android:name=".KasrohActivity" />
+        <activity android:name=".KtActivity" />
+        <activity android:name=".DomahActivity" />
+        <activity android:name=".DtActivity" />
+        <activity android:name=".Iqro1Activity" />
+        <activity android:name=".Iqro2Activity" />
+        <activity android:name=".Iqro3Activity" />
+        <activity android:name=".Iqro4Activity" />
+        <activity android:name=".Iqro5Activity" />
+        <activity android:name=".Iqro6Activity" />
+        <activity android:name=".Iqro2aActivity" />
+        <activity android:name=".Iqro2bActivity" />
+        <activity android:name=".Iqro2cActivity" />
+        <activity android:name=".Iqro2dActivity" />
+        <activity android:name=".Iqro2eActivity" />
+        <activity android:name=".Iqro3aActivity" />
+        <activity android:name=".Iqro3bActivity" />
+        <activity android:name=".Iqro3cActivity" />
+        <activity android:name=".Iqro3dActivity" />
+        <activity android:name=".Iqro3eActivity" />
+        <activity android:name=".Iqro4aActivity" />
+        <activity android:name=".Iqro4bActivity" />
+        <activity android:name=".Iqro4cActivity" />
+        <activity android:name=".Iqro4dActivity" />
+        <activity android:name=".Iqro4eActivity" />
+        <activity android:name=".Iqro4fActivity" />
+        <activity android:name=".Iqro4gActivity" />
+        <activity android:name=".Iqro4hActivity" />
+        <activity android:name=".Iqro5aActivity" />
+        <activity android:name=".MainNunmatiActivity" />
+        <activity android:name=".MainMimmatiActivity" />
+        <activity android:name=".MainIdgomActivity" />
+        <activity android:name=".MainMadActivity" />
+        <activity android:name=".MainRaActivity" />
+        <activity android:name=".MainLamActivity" />
+        <activity android:name=".MainTasdidActivity" />
+        <activity android:name=".MainQolqolahActivity" />
+        <activity android:name=".MainWakafActivity" />
+        <activity android:name=".MainKhususActivity" />
+        <activity android:name=".MainRa1Activity" />
+        <activity android:name=".MainRa2Activity" />
+        <activity android:name=".MainRa3Activity" />
+        <activity android:name=".MainLam1Activity" />
+        <activity android:name=".MainLam2Activity" />
+        <activity android:name=".MainKhusus1Activity" />
+        <activity android:name=".MainKhusus2Activity" />
+        <activity android:name=".MainKhusus3Activity" />
+        <activity android:name=".MainKhusus4Activity" />
+        <activity android:name=".MainMad1Activity" />
+        <activity android:name=".MainMad2Activity" />
+        <activity android:name=".MainMad3Activity" />
+        <activity android:name=".MainMad4Activity" />
+        <activity android:name=".MainMad5Activity" />
+        <activity android:name=".MainMad6Activity" />
+        <activity android:name=".MainMad7Activity" />
+        <activity android:name=".MainMad8Activity" />
+        <activity android:name=".MainMad9Activity" />
+        <activity android:name=".MainMad10Activity" />
+        <activity android:name=".MainMad11Activity" />
+        <activity android:name=".MainMad12Activity" />
+        <activity android:name=".MainMad13Activity" />
+        <activity android:name=".MainMad14Activity" />
+        <activity android:name=".MainMad15Activity" />
+        <activity android:name=".MainNunmati1Activity" />
+        <activity android:name=".MainNunmati2Activity" />
+        <activity android:name=".MainNunmati3Activity" />
+        <activity android:name=".MainNunmati4Activity" />
+        <activity android:name=".MainMimmati1Activity" />
+        <activity android:name=".MainMimmati2Activity" />
+        <activity android:name=".MainMimmati3Activity" />
+        <activity android:name=".MainIdgom1Activity" />
+        <activity android:name=".MainIdgom2Activity" />
+        <activity android:name=".MainIdgom3Activity" />
+        <activity android:name=".Iqro5bActivity" />
+        <activity android:name=".Iqro5cActivity" />
+        <activity android:name=".Iqro5dActivity" />
+        <activity android:name=".Iqro5eActivity" />
+        <activity android:name=".Iqro6aActivity" />
+        <activity android:name=".Iqro6cActivity" />
+        <activity android:name=".Iqro6dActivity" />
+        <activity android:name=".Iqro6eActivity" />
+        <activity android:name=".Iqro1aActivity" />
+        <activity android:name=".Iqro1bActivity" />
+        <activity
+            android:name=".list.ListMadrasahActivity"
+            android:label="@string/title_activity_list_madrasah"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".list.DetailMadrasahActivity"
+            android:label="@string/title_activity_detail_madrasah"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
+    </application>
+
+</manifest>

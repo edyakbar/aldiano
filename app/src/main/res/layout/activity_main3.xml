@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rikawidyakartika.iqro.Main3Activity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="0.18"
+        android:paddingTop="40dp"
+        android:stretchColumns="*">
+
+        <TableRow android:paddingTop="50dp">
+            <ImageView
+                android:id="@+id/iqro2"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/iqro2"/>
+            <ImageView
+                android:id="@+id/iqro1"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:paddingRight="80dp"
+                android:src="@drawable/iqro1"/>
+
+
+
+        </TableRow>
+
+        <TableRow android:paddingTop="50dp">
+            <ImageView
+                android:id="@+id/iqro4"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/iqro4"/>
+            <ImageView
+                android:id="@+id/iqro3"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:paddingRight="80dp"
+                android:src="@drawable/iqro3"/>
+
+
+        </TableRow>
+
+        <TableRow android:paddingTop="50dp">
+            <ImageView
+                android:id="@+id/iqro6"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/iqro6"/>
+
+            <ImageView
+                android:id="@+id/iqro5"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:paddingRight="80dp"
+                android:src="@drawable/iqro5"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
