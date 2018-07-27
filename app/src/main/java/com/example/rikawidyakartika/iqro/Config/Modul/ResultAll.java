@@ -16,6 +16,7 @@ public class ResultAll {
     String longitude;
 
     public String getAlamat() {
+        System.out.println("test");
         return alamat;
     }
 
